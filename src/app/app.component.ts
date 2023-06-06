@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'KD-EDITOR';
+
+  getUrl() {
+    return "url('src/assets/Images/bg1.jpg')";
+  }
 }
