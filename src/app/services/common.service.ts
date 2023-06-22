@@ -158,6 +158,22 @@ export class CommonService {
       content: '',
       type1: 'pdf',
       type2: 'pdf'
+    },
+    {
+      id: 19,
+      icon: 'assets/icons/unlock-pdf.png',
+      title: 'Base64 to PDF',
+      content: '',
+      type1: 'base64',
+      type2: 'pdf'
+    },
+    {
+      id: 20,
+      icon: 'assets/icons/unlock-pdf.png',
+      title: 'PDF to Base64',
+      content: '',
+      type1: 'base64',
+      type2: 'pdf'
     }
   ]
 
