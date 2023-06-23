@@ -120,7 +120,7 @@ export class CommonService {
       icon: 'assets/icons/word-to-html.png',
       title: 'Word to HTML',
       content: '',
-      type1: 'pdf',
+      type1: 'word',
       type2: 'html'
     },
     {
@@ -128,7 +128,7 @@ export class CommonService {
       icon: 'assets/icons/html-to-word.png',
       title: 'HTML to Word',
       content: '',
-      type1: 'pdf',
+      type1: 'word',
       type2: 'html'
     },
     {
