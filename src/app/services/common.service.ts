@@ -27,6 +27,7 @@ export class CommonService {
     {
       id: 2,
       icon: 'assets/icons/split-pdf.png',
+      path: 'split-pdf',
       title: 'Split PDF',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
       type1: 'pdf',
@@ -73,7 +74,7 @@ export class CommonService {
       type2: 'html'
     },
     {
-      id: 20,
+      id: 8,
       icon: 'assets/icons/pdf-to-base64.png',
       title: 'PDF to Base64',
       content: '',
@@ -81,7 +82,7 @@ export class CommonService {
       type2: 'pdf'
     },
     {
-      id: 8,
+      id: 9,
       icon: 'assets/icons/word-to-pdf.png',
       title: 'Word to PDF',
       content: '',
@@ -89,7 +90,7 @@ export class CommonService {
       type2: 'word'
     },
     {
-      id: 9,
+      id: 10,
       icon: 'assets/icons/excel-to-pdf.png',
       title: 'Excel to PDF',
       content: '',
@@ -97,7 +98,7 @@ export class CommonService {
       type2: 'excel'
     },
     {
-      id: 10,
+      id: 11,
       icon: 'assets/icons/html-tp-pdf.png',
       title: 'HTML to PDF',
       content: '',
@@ -105,7 +106,7 @@ export class CommonService {
       type2: 'html'
     },
     {
-      id: 19,
+      id: 12,
       icon: 'assets/icons/base64-to-pdf.png',
       title: 'Base64 to PDF',
       content: '',
@@ -113,7 +114,7 @@ export class CommonService {
       type2: 'pdf'
     },
     {
-      id: 8,
+      id: 13,
       icon: 'assets/icons/word-to-html.png',
       title: 'Word to HTML',
       content: '',
@@ -121,7 +122,7 @@ export class CommonService {
       type2: 'html'
     },
     {
-      id: 10,
+      id: 14,
       icon: 'assets/icons/html-to-word.png',
       title: 'HTML to Word',
       content: '',
@@ -129,7 +130,7 @@ export class CommonService {
       type2: 'html'
     },
     {
-      id: 11,
+      id: 15,
       icon: 'assets/icons/remove-bg-from-jpg.png',
       title: 'Remove BG From JPG',
       content: '',
@@ -137,7 +138,7 @@ export class CommonService {
       type2: 'jpg'
     },
     {
-      id: 12,
+      id: 16,
       icon: 'assets/icons/remove-bg-from-img.png',
       title: 'Remove BG From PNG',
       content: '',
@@ -145,7 +146,7 @@ export class CommonService {
       type2: 'png'
     },
     {
-      id: 13,
+      id: 17,
       icon: 'assets/icons/pdf-to-png.png',
       title: 'PDF to PNG',
       content: '',
@@ -153,7 +154,7 @@ export class CommonService {
       type2: 'png'
     },
     {
-      id: 14,
+      id: 18,
       icon: 'assets/icons/png-to-pdf.png',
       title: 'PNG to PDF',
       content: '',
@@ -161,7 +162,7 @@ export class CommonService {
       type2: 'png'
     },
     {
-      id: 15,
+      id: 19,
       icon: 'assets/icons/pdf-to-jpg.png',
       title: 'PDF to JPG',
       content: '',
@@ -169,7 +170,7 @@ export class CommonService {
       type2: 'jpg'
     },
     {
-      id: 16,
+      id: 20,
       icon: 'assets/icons/jpg-to-pdf.png',
       title: 'JPG to PDF',
       content: '',
@@ -177,7 +178,7 @@ export class CommonService {
       type2: 'jpg'
     },
     {
-      id: 17,
+      id: 21,
       icon: 'assets/icons/stamp-on-pdf.png',
       title: 'Add Watermark',
       content: '',
@@ -185,7 +186,7 @@ export class CommonService {
       type2: 'pdf'
     },
     {
-      id: 18,
+      id: 22,
       icon: 'assets/icons/unlock-pdf.png',
       title: 'Unlock PDF',
       content: '',
