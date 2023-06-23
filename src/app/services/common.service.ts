@@ -18,6 +18,7 @@ export class CommonService {
     {
       id: 1,
       icon: 'assets/icons/merge-pdf.png',
+      path: 'merge-pdf',
       title: 'Merge PDF',
       content: 'Combine PDFs in the order you want with the easiest PDF merger available.',
       type1: 'pdf',

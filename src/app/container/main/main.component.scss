@@ -1,9 +1,24 @@
-.card {
+.item-cards {
     transition: transform .2s;
     margin: 0 auto;
     cursor: pointer;
 }
 
-.card:hover {
+.item-cards:hover {
     transform: scale(1.2);
+}
+
+.image {
+    // height: 40em;
+    // background-size: cover;
+    // width: auto;
+    // background-image: url('../assets/Images/bg1.jpg');
+    // background-position: 50% 50%;
+    // background-color:whitesmoke;
+    background-color: #a4d5f1;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }

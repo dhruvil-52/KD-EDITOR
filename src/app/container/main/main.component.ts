@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CommonService } from 'src/app/services/common.service';
 
 @Component({
@@ -12,7 +13,8 @@ export class MainComponent implements OnInit {
   selectedType: string = "";
 
   constructor(
-    public commonService: CommonService
+    public commonService: CommonService,
+    public router: Router
   ) { }
 
   ngOnInit(): void {
@@ -42,6 +44,14 @@ export class MainComponent implements OnInit {
         }
       })
     })
+  }
+  onClick(row: any) {
+    const url = this.router.serializeUrl(
+      this.router.createUrlTree(['kd', row.path])
+    );
+
+    window.open(url, '_blank');
+    // this.router.navigate(['kd', row.path])
   }
 
 }

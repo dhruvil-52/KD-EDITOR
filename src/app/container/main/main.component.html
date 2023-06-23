@@ -1,17 +1,24 @@
-<div class="container">
-    <div class="row">
-        <div class="col-sm-3 col-md-3" *ngFor="let item of items">
-            <div class="card my-3">
-                <div class="px-4 pt-3 rounded-2">
-                    <img [src]="item.icon" [alt]="item.title" width="60" height="50">
-                </div>
-                <div class="card-body">
-                    <h6 class="card-title"><b>{{item.title}}</b></h6>
-                    <p class="card-text">
-                        <small class="text-body-secondary">
-                            {{item.content}}
-                        </small>
-                    </p>
+<app-header></app-header>
+<div class="card">
+    <div class="card-body">
+        <div class="image">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 col-md-3" *ngFor="let item of items">
+                        <div class="card my-3 item-cards" (click)="onClick(item)">
+                            <div class="px-4 pt-3 rounded-2">
+                                <img [src]="item.icon" [alt]="item.title" width="60" height="50">
+                            </div>
+                            <div class="card-body">
+                                <h6 class="card-title"><b>{{item.title}}</b></h6>
+                                <p class="card-text">
+                                    <small class="text-body-secondary">
+                                        {{item.content}}
+                                    </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

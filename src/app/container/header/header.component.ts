@@ -23,6 +23,5 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.types = this.commonService.types;
-    console.log("types", this.types)
   }
 }
