@@ -7,6 +7,9 @@ const routes: Routes = [
   },
   {
     path: 'split-pdf', loadChildren: () => import('./split-pdf/split-pdf.module').then(m => m.SplitPdfModule)
+  },
+  {
+    path: 'compress-pdf', loadChildren: () => import('./compress-pdf/compress-pdf.module').then(m => m.CompressPdfModule)
   }
 ];
 

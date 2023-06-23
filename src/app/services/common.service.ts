@@ -36,6 +36,7 @@ export class CommonService {
     {
       id: 3,
       icon: 'assets/icons/compress-pdf.png',
+      path: 'compress-pdf',
       title: 'Compress PDF',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
       type1: 'pdf',
