@@ -45,6 +45,7 @@ export class CommonService {
     {
       id: 4,
       icon: 'assets/icons/add-page-number-to-pdf.png',
+      path: 'add-page-number',
       title: 'Add Page Number',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
       type1: 'pdf',

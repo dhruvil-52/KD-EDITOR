@@ -10,6 +10,9 @@ const routes: Routes = [
   },
   {
     path: 'compress-pdf', loadChildren: () => import('./compress-pdf/compress-pdf.module').then(m => m.CompressPdfModule)
+  },
+  {
+    path: 'add-page-number', loadChildren: () => import('./add-page-number/add-page-number.module').then(m => m.AddPageNumberModule)
   }
 ];
 

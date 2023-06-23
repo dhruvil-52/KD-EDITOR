@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CompressPdfComponent } from './compress-pdf.component';
+import { AddPageNumberComponent } from './add-page-number.component';
 
-describe('CompressPdfComponent', () => {
-  let component: CompressPdfComponent;
-  let fixture: ComponentFixture<CompressPdfComponent>;
+describe('AddPageNumberComponent', () => {
+  let component: AddPageNumberComponent;
+  let fixture: ComponentFixture<AddPageNumberComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CompressPdfComponent ]
+      declarations: [ AddPageNumberComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CompressPdfComponent);
+    fixture = TestBed.createComponent(AddPageNumberComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
