@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './container/header/header.component';
 import { FooterComponent } from './container/footer/footer.component';
-import { MainComponent } from './components/main/main.component';
+import { MainComponent } from './container/main/main.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({

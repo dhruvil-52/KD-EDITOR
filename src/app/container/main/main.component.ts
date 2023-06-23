@@ -19,13 +19,17 @@ export class MainComponent implements OnInit {
     this.items = this.commonService.items;
     this.commonService.selectedType.subscribe((e) => {
       this.selectedType = e;
-      this.items = this.commonService.items.filter((e) => {
-        if (e.type1 == this.selectedType || e.type2 == this.selectedType) {
-          return true
-        } else {
-          return false
-        }
-      })
+      if (this.selectedType == 'All') {
+        this.items = this.commonService.items;
+      } else {
+        this.items = this.commonService.items.filter((e) => {
+          if (e.type1 == this.selectedType || e.type2 == this.selectedType) {
+            return true
+          } else {
+            return false
+          }
+        })
+      }
     })
 
     this.commonService.enteredKeyword.subscribe((e) => {

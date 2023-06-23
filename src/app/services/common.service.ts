@@ -6,10 +6,10 @@ import { Subject } from 'rxjs';
 })
 export class CommonService {
 
-  types: Array<any> = [];
+  types: Array<any> = ['All'];
   selectedType: Subject<string> = new Subject()
   enteredKeyword: Subject<string> = new Subject()
-  
+
   constructor() {
     this.getUniqueTypeList();
   }
@@ -72,6 +72,14 @@ export class CommonService {
       type2: 'html'
     },
     {
+      id: 20,
+      icon: 'assets/icons/pdf-to-base64.png',
+      title: 'PDF to Base64',
+      content: '',
+      type1: 'base64',
+      type2: 'pdf'
+    },
+    {
       id: 8,
       icon: 'assets/icons/word-to-pdf.png',
       title: 'Word to PDF',
@@ -91,6 +99,30 @@ export class CommonService {
       id: 10,
       icon: 'assets/icons/html-tp-pdf.png',
       title: 'HTML to PDF',
+      content: '',
+      type1: 'pdf',
+      type2: 'html'
+    },
+    {
+      id: 19,
+      icon: 'assets/icons/base64-to-pdf.png',
+      title: 'Base64 to PDF',
+      content: '',
+      type1: 'base64',
+      type2: 'pdf'
+    },
+    {
+      id: 8,
+      icon: 'assets/icons/word-to-html.png',
+      title: 'Word to HTML',
+      content: '',
+      type1: 'pdf',
+      type2: 'html'
+    },
+    {
+      id: 10,
+      icon: 'assets/icons/html-to-word.png',
+      title: 'HTML to Word',
       content: '',
       type1: 'pdf',
       type2: 'html'
@@ -157,22 +189,6 @@ export class CommonService {
       title: 'Unlock PDF',
       content: '',
       type1: 'pdf',
-      type2: 'pdf'
-    },
-    {
-      id: 19,
-      icon: 'assets/icons/unlock-pdf.png',
-      title: 'Base64 to PDF',
-      content: '',
-      type1: 'base64',
-      type2: 'pdf'
-    },
-    {
-      id: 20,
-      icon: 'assets/icons/unlock-pdf.png',
-      title: 'PDF to Base64',
-      content: '',
-      type1: 'base64',
       type2: 'pdf'
     }
   ]
