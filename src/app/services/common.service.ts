@@ -63,6 +63,7 @@ export class CommonService {
     {
       id: 6,
       icon: 'assets/icons/pdf-to-excel.png',
+      path:'pdf-to-excel',
       title: 'PDF to Excel',
       content: '',
       type1: 'pdf',
@@ -89,6 +90,7 @@ export class CommonService {
     {
       id: 9,
       icon: 'assets/icons/word-to-pdf.png',
+      path:'word-to-pdf',
       title: 'Word to PDF',
       content: '',
       type1: 'pdf',

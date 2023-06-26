@@ -34,6 +34,12 @@ const routes: Routes = [
   },
   {
     path: 'pdf-to-word', loadChildren: () => import('./pdf-to-word/pdf-to-word.module').then(m => m.PdfToWordModule)
+  },
+  {
+    path: 'pdf-to-excel', loadChildren: () => import('./pdf-to-excel/pdf-to-excel.module').then(m => m.PdfToExcelModule)
+  },
+  {
+    path: 'word-to-pdf', loadChildren: () => import('./word-to-pdf/word-to-pdf.module').then(m => m.WordToPdfModule)
   }
 ];
 
