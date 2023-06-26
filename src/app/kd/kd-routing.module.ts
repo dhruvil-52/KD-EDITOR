@@ -64,6 +64,9 @@ const routes: Routes = [
   },
   {
     path: 'remove-bg-from-jpg', loadChildren: () => import('./remove-bg-from-jpg/remove-bg-from-jpg.module').then(m => m.RemoveBgFromJpgModule)
+  },
+  {
+    path: 'remove-bg-from-png', loadChildren: () => import('./remove-bg-from-png/remove-bg-from-png.module').then(m => m.RemoveBgFromPngModule)
   }
 ];
 
