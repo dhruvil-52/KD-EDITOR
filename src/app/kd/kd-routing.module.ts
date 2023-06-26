@@ -55,6 +55,9 @@ const routes: Routes = [
   },
   {
     path: 'jpg-to-pdf', loadChildren: () => import('./jpg-to-pdf/jpg-to-pdf.module').then(m => m.JpgToPdfModule)
+  },
+  {
+    path: 'add-watermark', loadChildren: () => import('./add-watermark/add-watermark.module').then(m => m.AddWatermarkModule)
   }
 ];
 
