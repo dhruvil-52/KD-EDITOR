@@ -71,6 +71,7 @@ export class CommonService {
       id: 7,
       icon: 'assets/icons/pdf-to-html.png',
       title: 'PDF to HTML',
+      path:'pdf-to-html',
       content: '',
       type1: 'pdf',
       type2: 'html'
@@ -78,6 +79,7 @@ export class CommonService {
     {
       id: 8,
       icon: 'assets/icons/pdf-to-base64.png',
+      path:'pdf-to-base64',
       title: 'PDF to Base64',
       content: '',
       type1: 'base64',
@@ -103,6 +105,7 @@ export class CommonService {
       id: 11,
       icon: 'assets/icons/html-tp-pdf.png',
       title: 'HTML to PDF',
+      path:'html-to-pdf',
       content: '',
       type1: 'pdf',
       type2: 'html'
@@ -111,6 +114,7 @@ export class CommonService {
       id: 12,
       icon: 'assets/icons/base64-to-pdf.png',
       title: 'Base64 to PDF',
+      path:'base64-to-pdf',
       content: '',
       type1: 'base64',
       type2: 'pdf'
@@ -119,6 +123,7 @@ export class CommonService {
       id: 13,
       icon: 'assets/icons/word-to-html.png',
       title: 'Word to HTML',
+      path:'word-to-html',
       content: '',
       type1: 'word',
       type2: 'html'
@@ -127,6 +132,7 @@ export class CommonService {
       id: 14,
       icon: 'assets/icons/html-to-word.png',
       title: 'HTML to Word',
+      path:'html-to-word',
       content: '',
       type1: 'word',
       type2: 'html'
