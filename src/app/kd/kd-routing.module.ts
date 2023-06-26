@@ -49,6 +49,9 @@ const routes: Routes = [
   },
   {
     path: 'png-to-pdf', loadChildren: () => import('./png-to-pdf/png-to-pdf.module').then(m => m.PngToPdfModule)
+  },
+  {
+    path: 'pdf-to-jpg', loadChildren: () => import('./pdf-to-jpg/pdf-to-jpg.module').then(m => m.PdfToJpgModule)
   }
 ];
 
