@@ -72,8 +72,8 @@ export class CommonService {
     {
       id: 7,
       icon: 'assets/icons/pdf-to-html.png',
-      title: 'PDF to HTML',
       path:'pdf-to-html',
+      title: 'PDF to HTML',
       content: '',
       type1: 'pdf',
       type2: 'html'
@@ -108,8 +108,8 @@ export class CommonService {
     {
       id: 11,
       icon: 'assets/icons/html-tp-pdf.png',
-      title: 'HTML to PDF',
       path:'html-to-pdf',
+      title: 'HTML to PDF',
       content: '',
       type1: 'pdf',
       type2: 'html'
@@ -117,8 +117,8 @@ export class CommonService {
     {
       id: 12,
       icon: 'assets/icons/base64-to-pdf.png',
-      title: 'Base64 to PDF',
       path:'base64-to-pdf',
+      title: 'Base64 to PDF',
       content: '',
       type1: 'base64',
       type2: 'pdf'
@@ -126,8 +126,8 @@ export class CommonService {
     {
       id: 13,
       icon: 'assets/icons/word-to-html.png',
-      title: 'Word to HTML',
       path:'word-to-html',
+      title: 'Word to HTML',
       content: '',
       type1: 'word',
       type2: 'html'
@@ -135,8 +135,8 @@ export class CommonService {
     {
       id: 14,
       icon: 'assets/icons/html-to-word.png',
-      title: 'HTML to Word',
       path:'html-to-word',
+      title: 'HTML to Word',
       content: '',
       type1: 'word',
       type2: 'html'
@@ -144,6 +144,7 @@ export class CommonService {
     {
       id: 15,
       icon: 'assets/icons/remove-bg-from-jpg.png',
+      path:'remove-bg-from-jpg',
       title: 'Remove BG From JPG',
       content: '',
       type1: 'jpg',
@@ -152,6 +153,7 @@ export class CommonService {
     {
       id: 16,
       icon: 'assets/icons/remove-bg-from-img.png',
+      path:'remove-bg-from-png',
       title: 'Remove BG From PNG',
       content: '',
       type1: 'png',
@@ -160,8 +162,8 @@ export class CommonService {
     {
       id: 17,
       icon: 'assets/icons/pdf-to-png.png',
-      title: 'PDF to PNG',
       path:'pdf-to-png',
+      title: 'PDF to PNG',
       content: '',
       type1: 'pdf',
       type2: 'png'
@@ -169,6 +171,7 @@ export class CommonService {
     {
       id: 18,
       icon: 'assets/icons/png-to-pdf.png',
+      path:'png-to-pdf',
       title: 'PNG to PDF',
       content: '',
       type1: 'pdf',
@@ -177,6 +180,7 @@ export class CommonService {
     {
       id: 19,
       icon: 'assets/icons/pdf-to-jpg.png',
+      path:'pdf-to-jpg',
       title: 'PDF to JPG',
       content: '',
       type1: 'pdf',
@@ -185,6 +189,7 @@ export class CommonService {
     {
       id: 20,
       icon: 'assets/icons/jpg-to-pdf.png',
+      path:'jpg-to-pdf',
       title: 'JPG to PDF',
       content: '',
       type1: 'pdf',
@@ -193,6 +198,7 @@ export class CommonService {
     {
       id: 21,
       icon: 'assets/icons/stamp-on-pdf.png',
+      path:'add-watermark',
       title: 'Add Watermark',
       content: '',
       type1: 'pdf',
@@ -201,6 +207,7 @@ export class CommonService {
     {
       id: 22,
       icon: 'assets/icons/unlock-pdf.png',
+      path:'unlock-pdf',
       title: 'Unlock PDF',
       content: '',
       type1: 'pdf',
