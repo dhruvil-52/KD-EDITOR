@@ -21,7 +21,7 @@ export class CommonService {
       path: 'merge-pdf',
       title: 'Merge PDF',
       content: 'Combine PDFs in the order you want with the easiest PDF merger available.',
-      type1: 'pdf',
+      type1: 'merge',
       type2: 'pdf'
     },
     {
@@ -30,7 +30,7 @@ export class CommonService {
       path: 'split-pdf',
       title: 'Split PDF',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
-      type1: 'pdf',
+      type1: 'split',
       type2: 'pdf'
     },
     {
@@ -39,7 +39,7 @@ export class CommonService {
       path: 'compress-pdf',
       title: 'Compress PDF',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
-      type1: 'pdf',
+      type1: 'compress',
       type2: 'pdf'
     },
     {
@@ -48,7 +48,7 @@ export class CommonService {
       path: 'add-page-number',
       title: 'Add Page Number',
       content: 'Separate one page or a whole set for easy conversion into independent PDF files.',
-      type1: 'pdf',
+      type1: 'page number',
       type2: 'pdf'
     },
     {
@@ -147,7 +147,7 @@ export class CommonService {
       path:'remove-bg-from-jpg',
       title: 'Remove BG From JPG',
       content: '',
-      type1: 'jpg',
+      type1: 'bg background',
       type2: 'jpg'
     },
     {
@@ -156,7 +156,7 @@ export class CommonService {
       path:'remove-bg-from-png',
       title: 'Remove BG From PNG',
       content: '',
-      type1: 'png',
+      type1: 'bg background',
       type2: 'png'
     },
     {
@@ -201,7 +201,7 @@ export class CommonService {
       path:'add-watermark',
       title: 'Add Watermark',
       content: '',
-      type1: 'pdf',
+      type1: 'watermark',
       type2: 'pdf'
     },
     {
@@ -210,7 +210,7 @@ export class CommonService {
       path:'unlock-pdf',
       title: 'Unlock PDF',
       content: '',
-      type1: 'pdf',
+      type1: 'unlock',
       type2: 'pdf'
     }
   ]
