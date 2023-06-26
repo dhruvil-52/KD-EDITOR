@@ -61,6 +61,9 @@ const routes: Routes = [
   },
   {
     path: 'unlock-pdf', loadChildren: () => import('./unlock-pdf/unlock-pdf.module').then(m => m.UnlockPdfModule)
+  },
+  {
+    path: 'remove-bg-from-jpg', loadChildren: () => import('./remove-bg-from-jpg/remove-bg-from-jpg.module').then(m => m.RemoveBgFromJpgModule)
   }
 ];
 
