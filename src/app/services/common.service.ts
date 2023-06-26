@@ -99,6 +99,7 @@ export class CommonService {
     {
       id: 10,
       icon: 'assets/icons/excel-to-pdf.png',
+      path:'excel-to-pdf',
       title: 'Excel to PDF',
       content: '',
       type1: 'pdf',
