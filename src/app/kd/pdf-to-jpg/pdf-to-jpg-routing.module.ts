@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PdfToJpgModule } from './pdf-to-jpg.module';
-import { PdfToJpgComponent } from './pdf-to-jpg.component';
+import { PdfToJpgComponent } from './pdf-to-jpg/pdf-to-jpg.component';
 
 const routes: Routes = [
   {
