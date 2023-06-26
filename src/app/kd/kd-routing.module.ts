@@ -43,6 +43,9 @@ const routes: Routes = [
   },
   {
     path: 'excel-to-pdf', loadChildren: () => import('./excel-to-pdf/excel-to-pdf.module').then(m => m.ExcelToPdfModule)
+  },
+  {
+    path: 'pdf-to-png', loadChildren: () => import('./pdf-to-png/pdf-to-png.module').then(m => m.PdfToPngModule)
   }
 ];
 

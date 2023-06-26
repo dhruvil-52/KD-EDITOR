@@ -161,6 +161,7 @@ export class CommonService {
       id: 17,
       icon: 'assets/icons/pdf-to-png.png',
       title: 'PDF to PNG',
+      path:'pdf-to-png',
       content: '',
       type1: 'pdf',
       type2: 'png'
