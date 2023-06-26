@@ -58,6 +58,9 @@ const routes: Routes = [
   },
   {
     path: 'add-watermark', loadChildren: () => import('./add-watermark/add-watermark.module').then(m => m.AddWatermarkModule)
+  },
+  {
+    path: 'unlock-pdf', loadChildren: () => import('./unlock-pdf/unlock-pdf.module').then(m => m.UnlockPdfModule)
   }
 ];
 
