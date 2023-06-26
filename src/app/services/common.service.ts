@@ -54,6 +54,7 @@ export class CommonService {
     {
       id: 5,
       icon: 'assets/icons/pdf-to-word.png',
+      path:'pdf-to-word',
       title: 'PDF to Word',
       content: '',
       type1: 'pdf',

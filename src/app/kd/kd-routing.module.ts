@@ -31,6 +31,9 @@ const routes: Routes = [
   },
   {
     path: 'pdf-to-html', loadChildren: () => import('./pdf-to-html/pdf-to-html.module').then(m => m.PdfToHtmlModule)
+  },
+  {
+    path: 'pdf-to-word', loadChildren: () => import('./pdf-to-word/pdf-to-word.module').then(m => m.PdfToWordModule)
   }
 ];
 
