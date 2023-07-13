@@ -1,1 +1,62 @@
-<p>document-uploader works!</p>
+<div class="row" *ngIf="multipleUploads">
+    <div class="col-12">
+        <div class="row">
+            <div class="col-6">
+                <!-- <div class="drop-container" ngFileDrop [options]="options" (uploadOutput)="onUploadOutput($event)"
+                    [uploadInput]="uploadInput" [ngClass]="{ 'is-drop-over': dragOver }">
+                    <h1>Drag &amp; Drop</h1>
+                </div>
+                <label class="upload-button">
+                    <input type="file" ngFileSelect [options]="options" (uploadOutput)="onUploadOutput($event)"
+                        [uploadInput]="uploadInput" multiple>
+                    or choose file(s)
+                </label>
+                <button type="button" class="start-upload-btn" (click)="startUpload()">
+                    Start Upload
+                </button> -->
+
+                <div class="container">
+                    <div class="drag-area">
+                        <div ngFileDrop [options]="options" (uploadOutput)="onUploadOutput($event)"
+                            [uploadInput]="uploadInput">
+                            <img src="assets/icons/upload.png" alt="KD" width="30" height="30">
+                        </div>
+                        <label class="pointer">
+                            <input type="file" multiple ngFileSelect [options]="options"
+                                (uploadOutput)="onUploadOutput($event)" [uploadInput]="uploadInput" hidden> Drop or
+                            click to upload
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6 document_table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let file of files;let i=index">
+                            <th>{{i+1}}</th>
+                            <td>{{file.name | titlecase}}</td>
+                            <td><i class="bi bi-trash-fill" title="Remove File" (click)="removeFile(i)"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-12 float-right">
+        <button type="button" class="btn btn-primary mr-2" (click)="removeAllFiles()" [disabled]="!files.length">
+            Remove All
+        </button>
+        <button type="button" class="btn btn-primary" (click)="startUpload()" [disabled]="!files.length">
+            Upload
+        </button>
+    </div>
+</div>

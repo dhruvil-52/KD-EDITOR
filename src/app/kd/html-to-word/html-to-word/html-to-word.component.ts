@@ -7,4 +7,22 @@ import { Component } from '@angular/core';
 })
 export class HtmlToWordComponent {
 
+  constructor() { }
+
+  onUploadFile(files: any) {
+    console.log("files", files)
+  }
+
+  template = `
+  <div>{{data.name}}</div>
+  <div>{{data.age}}</div>
+  <div>{{data.mo}}</div> 
+  `
+
+  item = {
+    name: 'dhruvil',
+    age: 23,
+    mo: 89076543210
+  }
+
 }

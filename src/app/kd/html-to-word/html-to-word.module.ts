@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { HtmlToWordRoutingModule } from './html-to-word-routing.module';
 import { HtmlToWordComponent } from './html-to-word/html-to-word.component';
+import { SharedModule } from 'src/app/shared/shared.module';
+import { DocumentUploaderModule } from 'src/app/container/document-uploader/document-uploader.module';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { HtmlToWordComponent } from './html-to-word/html-to-word.component';
   ],
   imports: [
     CommonModule,
-    HtmlToWordRoutingModule
+    HtmlToWordRoutingModule,
+    SharedModule,
+    DocumentUploaderModule
   ]
 })
 export class HtmlToWordModule { }

@@ -1,1 +1,7 @@
-<p>html-to-word works!</p>
+<app-common-header></app-common-header>
+<app-document-uploader (onUpload)="onUploadFile($event)"></app-document-uploader>
+<div class="row" #htmlDocument *ngIf="template">
+    <div class="col-sm-12">
+        <ng-container *compile="template; context: { Data: item }"></ng-container>
+    </div>
+</div>

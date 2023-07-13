@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { DocumentUploaderRoutingModule } from './document-uploader-routing.module';
 import { DocumentUploaderComponent } from './document-uploader/document-uploader.component';
+import { NgxUploaderModule } from 'ngx-uploader';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { DocumentUploaderComponent } from './document-uploader/document-uploader
   ],
   imports: [
     CommonModule,
-    DocumentUploaderRoutingModule
+    DocumentUploaderRoutingModule,
+    NgxUploaderModule
   ],
   exports: [
     DocumentUploaderComponent
