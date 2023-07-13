@@ -8,6 +8,7 @@ import { HeaderComponent } from './container/header/header.component';
 import { FooterComponent } from './container/footer/footer.component';
 import { MainComponent } from './container/main/main.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <nav class="navbar bg-body-tertiary">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#" >
                     <img src="assets/Images/web_logo.png" alt="KD" width="30" height="30">
                 </a>
             </div>
@@ -12,7 +12,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-lg-0">
+                <li class="nav-item dropdown">
+                    <span class="title">{{title}} </span>
+                </li>
             </ul>
             <button class="btn btn-light" (click)="download()">Download</button>
         </div>
