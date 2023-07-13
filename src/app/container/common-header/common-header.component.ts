@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-common-header',
@@ -8,10 +9,14 @@ import { Component, Input, OnInit } from '@angular/core';
 export class CommonHeaderComponent implements OnInit {
 
   @Input() title: string = ''
-  constructor() { }
+  constructor(private router: Router) { }
 
   download() {
     console.log("download called")
+  }
+
+  redirectToHome() {
+    this.router.navigate(['/'])
   }
 
   ngOnInit(): void {
